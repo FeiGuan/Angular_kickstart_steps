@@ -3,6 +3,7 @@
 ##Quick Start
 
 Install [Node.js](http://nodejs.org/)
+Get [ng-boilerplate](http://joshdmiller.github.io/ng-boilerplate/#/home)
 ```shell
 $ git clone git://github.com/joshdmiller/ng-boilerplate
 $ cd ng-boilerplate
@@ -11,3 +12,18 @@ $ npm install
 $ bower install
 $ grunt watch
 ```
+<h3>ng-boilerplate</h3>
+<b>ng-boilerplate</b> is the best Angular project template<br />
+module layout: <br />
+* src/				(all codes used in the application)<br />
+      * app/			(app-specific codes)<br />
+            * app.js		(main app configuration)<br />
+            * app.spec.js	(app tests in jasmine)<br />
+      * assets/			(static files: fonts, images, css)
+      * common/		()
+      * less/
+      * index.html		(contains all markup applied to everything in the app, such as header and footer, declaring with ngApp="ngBoilerplate", controller and directive)
+* testacular(or karma/)		(test configuration)
+* vendor/			(third-party libs)
+* Grunfile.js			(build script)
+* package.json			(metadata)<br />
