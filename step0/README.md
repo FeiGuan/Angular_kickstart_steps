@@ -27,3 +27,11 @@ module layout: <br />
 * vendor/			(third-party libs)
 * Grunfile.js			(build script)
 * package.json			(metadata)<br />
+
+<h3>Grunt</h3>
+ng-boilerplate uses [Grunt](http://gruntjs.com/) as its build system, which automates gathering assets for distribution compiling LESS into CSS, linking and minifying JS sources and running unit tests. [Gruntfile.js](https://github.com/ngbp/ngbp/blob/v0.3.2-release/Gruntfile.js) is config file.
+<br />
+<h3>Karma</h3>
+Running unit tests
+
+
